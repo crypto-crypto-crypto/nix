@@ -9,4 +9,5 @@ sudo mount /dev/disk/by-label/nixos /mnt
 
 sudo nixos-generate-config --root /mnt
 
-# cp configuration.nix /etc/nixos/
+sudo cp configuration.nix /mnt/etc/nixos/
+sudo nixos-install
